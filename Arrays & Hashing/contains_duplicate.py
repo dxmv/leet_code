@@ -1,7 +1,6 @@
 # 217. Contains Duplicate
-
-
 class Solution:
+    # Time: O(n) Memory: O(n)   
     def containsDuplicate(self, nums: List[int]) -> bool:
         map={}
         for n in nums:
