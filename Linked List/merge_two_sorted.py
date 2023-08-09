@@ -5,6 +5,7 @@ class ListNode:
         self.val = val
         self.next = next
 class Solution:
+    # Time: O(n), Memory: O(n)
     def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
         arr=[]
         while list1 or list2:
